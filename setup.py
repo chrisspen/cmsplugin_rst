@@ -9,7 +9,7 @@ from cmsplugin_rst import __version__
 setup(
     name = "cmsplugin_rst",
     version = __version__,
-    #packages = find_packages(),
+    packages = find_packages(),
     author = "Chris Spencer",
     author_email = "chrisspen@gmail.com",
     description = "A django-cms plugin for supporting Restructured Text.",
