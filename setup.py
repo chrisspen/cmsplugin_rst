@@ -13,6 +13,20 @@ setup(
     author = "Chris Spencer",
     author_email = "chrisspen@gmail.com",
     description = "A django-cms plugin for supporting Restructured Text.",
+    package_data = {
+        'cmsplugin_rst': [
+            'templates/*.*',
+            'templates/*/*.*',
+            'static/*.*',
+            'static/*/*.*',
+            'static/*/*/*.*',
+            'static/*/*/*/*.*',
+            'static/*/*/*/*/*.*',
+            'locale/*.*',
+            'locale/*/*.*',
+            'locale/*/*/*.*',
+        ],
+    },
     license = "BSD",
     url = "https://github.com/chrisspen/cmsplugin_rst",
     classifiers = [
